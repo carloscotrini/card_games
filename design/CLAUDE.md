@@ -12,11 +12,18 @@ playtest notes.
 - [`dodeca-rules.md`](dodeca-rules.md) — **Dodeca, v0.1.** Full ruleset for the chosen
   first game: a simultaneous-flip duel built on an intransitive suit-ring, plus a push
   (commitment) lever and a face-up count. Includes tuning dials and a playtest checklist.
+- [`playtest-01-dodeca.md`](playtest-01-dodeca.md) — **Playtest 01 (simulated).**
+  Conclusions from the simulation + game-theory study: Dodeca has large latent depth, but
+  most of it is locked behind hidden information; recommends v0.2 changes to surface suit
+  information. Verdict against the design checklist.
+- [`sim/`](sim/CLAUDE.md) — **simulation + game-theory harness** (pure Python): the engine,
+  heuristic bots, the round-robin/sweep runner, and a regret-matching (CFR) equilibrium +
+  exact best-response analyzer.
 
 ## Still to come (as work proceeds)
 
-- Playtest logs and observations against the evaluation metrics.
-- Rule revisions (v0.2+) once Dodeca has been tested.
+- A v0.2 ruleset that surfaces suit information (per the Playtest 01 recommendation), and
+  a re-run of both harnesses to confirm the depth becomes accessible.
 
 ## Design inputs
 

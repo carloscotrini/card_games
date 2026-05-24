@@ -1,0 +1,28 @@
+======================================================================
+DODECA EQUILIBRIUM / EXPLOITABILITY ANALYSIS (regret matching, exact)
+======================================================================
+
+[VALIDATION] solver sanity checks (known game values):
+  RPS           value=+0.000 (expect 0.000), strat=[0.33, 0.33, 0.33] (expect ~0.33 each)
+  MatchPennies  value=+0.000 (expect 0.000), strat=[0.5, 0.5]
+  DominantRow   value=+1.000 (expect +1.000), strat=[1.0, 0.0]
+
+[A] ONE-ROUND REVEAL, BOTH HANDS KNOWN
+  trials=3000, hand size k=5
+  mean equilibrium value      : -0.0030   (0 => fair over random deals)
+  max |value| over deals      : 1.000
+  deals needing a MIXED strat : 77.4%   (support >= 2 cards)
+  mean support size           : 2.76 cards
+  equilibrium's top card is NOT the highest rank: 57.2%
+  HighCard avg loss vs optimal: 0.735 per round  (exploitability)
+  Random   avg loss vs optimal: 0.532 per round
+
+[B] MULTI-ROUND ENDGAME, BOTH HANDS KNOWN (payoff = trick differential)
+  endgames=400, hand size k=4 (=> 4 reveals)
+  mean equilibrium value      : +0.0431 tricks (0 => fair)
+  max |value| over endgames   : 3.750 tricks
+  internal nodes needing MIX  : 76.8%  (sequential yomi)
+  best-response vs HighCard   : +2.658 tricks avg
+  endgames where HighCard is exploitable: 89.2%
+
+======================================================================

@@ -17,6 +17,8 @@ research/
 design/              Workspace for our own two-player game (in progress)
     brainstorm-candidates.md Four candidate concepts + recommendation
     dodeca-rules.md          Dodeca v0.1 — our chosen first game
+    playtest-01-dodeca.md    Simulated + game-theory study of Dodeca v0.1
+    sim/                     Pure-Python engine, bots, and CFR/best-response harness
 ```
 
 Each folder has a `CLAUDE.md` describing its purpose and contents; start at
