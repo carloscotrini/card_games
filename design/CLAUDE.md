@@ -16,14 +16,20 @@ playtest notes.
   Conclusions from the simulation + game-theory study: Dodeca has large latent depth, but
   most of it is locked behind hidden information; recommends v0.2 changes to surface suit
   information. Verdict against the design checklist.
-- [`sim/`](sim/CLAUDE.md) — **simulation + game-theory harness** (pure Python): the engine,
-  heuristic bots, the round-robin/sweep runner, and a regret-matching (CFR) equilibrium +
-  exact best-response analyzer.
+- [`dodeca-v2-rules.md`](dodeca-v2-rules.md) — **Dodeca v0.2** (lead/response variant):
+  the Playtest 01 fix — leader plays face-up, responder replies, lead alternates. Tested,
+  then superseded toward v0.3.
+- [`playtest-02-dodeca-v2.md`](playtest-02-dodeca-v2.md) — **Playtest 02 (simulated).**
+  v0.2 unlocks the latent depth (skill-vs-naive 52% → 99%) but over-corrects into a
+  runaway second-mover advantage; recommends v0.3 rebalancing.
+- [`sim/`](sim/CLAUDE.md) — **simulation + game-theory harness** (pure Python): the v0.1
+  engine, heuristic bots, the round-robin/sweep runner, a regret-matching (CFR)
+  equilibrium + exact best-response analyzer, and the v0.2 lead/response engine + tests.
 
 ## Still to come (as work proceeds)
 
-- A v0.2 ruleset that surfaces suit information (per the Playtest 01 recommendation), and
-  a re-run of both harnesses to confirm the depth becomes accessible.
+- A v0.3 ruleset that rebalances the v0.2 lead/response asymmetry (restore rank relevance
+  to the ring, and/or make the lead a contested tempo resource), with another harness run.
 
 ## Design inputs
 

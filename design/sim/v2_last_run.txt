@@ -1,0 +1,25 @@
+======================================================================
+DODECA v0.2 (LEAD/RESPONSE) TESTS  (matches/pairing/seat=800, seed=20260524)
+======================================================================
+
+[1] ROUND-ROBIN FIELD STRENGTH (win-rate vs the field)
+         SmartV2:  83.2%
+     SmartRespV2:  82.1%
+         NaiveV2:  23.9%
+        RandomV2:  10.7%
+
+[2] SKILL vs NAIVE  (the headline comparison)
+    SmartV2     vs NaiveV2 : 98.6%   (v0.1 MaxProb vs HighCard was 52.1%)
+    SmartRespV2 vs NaiveV2 : 98.3%   (value of smart RESPONDING alone)
+    SmartV2     vs RandomV2: 99.7%   (v0.1 Counter vs Random was 62.4%)
+
+[3] LEAD / SEAT FAIRNESS  (mirror matches, alternating lead)
+     NaiveV2: seat0 wins 48.9%   responder won 50.1% of decided rounds
+     SmartV2: seat0 wins 49.9%   responder won 87.1% of decided rounds
+
+[4] EXACT KNOWN-HAND STRUCTURE OF A LEAD/RESPONSE ROUND
+    leader best-case value (knows opp hand): -0.684  (<=0 => even seeing the hand, leading isn't an edge)
+    naive-lead value vs best response       : -0.808  (leading your highest is punished)
+    responder holds a counter to a high lead: 89.5%
+
+======================================================================

@@ -34,12 +34,16 @@ design/
   brainstorm-candidates.md        Brainstorm 01: four candidate concepts + recommendation.
   dodeca-rules.md                 Dodeca v0.1: full rules for our chosen first game.
   playtest-01-dodeca.md           Playtest 01: simulated + game-theory study of Dodeca v0.1.
+  dodeca-v2-rules.md              Dodeca v0.2: lead/response variant (tested, -> v0.3).
+  playtest-02-dodeca-v2.md        Playtest 02: study of Dodeca v0.2 (lead/response).
   sim/
     CLAUDE.md                     Index of the simulation + game-theory harness.
     dodeca.py                     Dodeca v0.1 game engine.
     players.py                    Heuristic bots (random -> counting -> push/bluff).
     simulate.py                   Heuristic round-robin, seat-fairness, tuning sweeps.
     equilibrium.py                Regret-matching (CFR) equilibrium + exact best-response.
+    dodeca_v2.py                  Dodeca v0.2 engine + role-aware bots (lead/response).
+    simulate_v2.py                v0.2 tests: skill-vs-naive, fairness, lead-value.
 ```
 
 ## CLAUDE.md maintenance discipline (required)

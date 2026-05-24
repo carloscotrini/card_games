@@ -1,0 +1,42 @@
+{
+  "round_robin": [
+    [
+      "SmartV2",
+      0.8322916666666668
+    ],
+    [
+      "SmartRespV2",
+      0.8214583333333333
+    ],
+    [
+      "NaiveV2",
+      0.239375
+    ],
+    [
+      "RandomV2",
+      0.10687499999999998
+    ]
+  ],
+  "skill_vs_naive": {
+    "SmartV2_vs_NaiveV2": 0.98625,
+    "SmartRespV2_vs_NaiveV2": 0.983125,
+    "SmartV2_vs_RandomV2": 0.996875
+  },
+  "fairness": {
+    "NaiveV2": {
+      "seat0_winrate": 0.48875,
+      "responder_round_share": 0.5006847751654874
+    },
+    "SmartV2": {
+      "seat0_winrate": 0.49875,
+      "responder_round_share": 0.8710978976428116
+    }
+  },
+  "known_hand": {
+    "trials": 20000,
+    "k": 6,
+    "leader_best_value": -0.68395,
+    "naive_lead_value": -0.80785,
+    "pct_responder_beats_naive_lead": 0.8947
+  }
+}
