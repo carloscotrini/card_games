@@ -1,13 +1,22 @@
 # design/
 
-Workspace for **our own two-player card game**. Currently empty — this is the
-exploratory area where concepts, draft rules, and playtest notes will live.
+Workspace for **our own two-player card game** — concepts, draft rules, and (eventually)
+playtest notes.
 
-## Intended contents (as work proceeds)
+## Contents
 
-- Candidate game concepts (problem statement, core loop, victory condition).
-- Draft rulesets with version history.
+- [`brainstorm-candidates.md`](brainstorm-candidates.md) — **Brainstorm 01.** Four
+  candidate concepts (one per design lineage: simultaneous-bid, trick-taking+commitment,
+  capture/layered-scoring, minimalist intransitive bluff), scored against the brief, with
+  a recommendation. **Outcome: Dodeca chosen as our first game; Rebate held as fallback.**
+- [`dodeca-rules.md`](dodeca-rules.md) — **Dodeca, v0.1.** Full ruleset for the chosen
+  first game: a simultaneous-flip duel built on an intransitive suit-ring, plus a push
+  (commitment) lever and a face-up count. Includes tuning dials and a playtest checklist.
+
+## Still to come (as work proceeds)
+
 - Playtest logs and observations against the evaluation metrics.
+- Rule revisions (v0.2+) once Dodeca has been tested.
 
 ## Design inputs
 

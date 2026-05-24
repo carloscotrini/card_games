@@ -31,6 +31,8 @@ research/
     principles.md                 Game-design theory + 12-point design checklist.
 design/
   CLAUDE.md                       Workspace for our own game (concepts, rules, playtests).
+  brainstorm-candidates.md        Brainstorm 01: four candidate concepts + recommendation.
+  dodeca-rules.md                 Dodeca v0.1: full rules for our chosen first game.
 ```
 
 ## CLAUDE.md maintenance discipline (required)

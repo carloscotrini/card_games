@@ -15,6 +15,8 @@ research/
   design-theory/     Frameworks and principles for designing games
     principles.md            Theory + a 12-point design checklist
 design/              Workspace for our own two-player game (in progress)
+    brainstorm-candidates.md Four candidate concepts + recommendation
+    dodeca-rules.md          Dodeca v0.1 — our chosen first game
 ```
 
 Each folder has a `CLAUDE.md` describing its purpose and contents; start at
