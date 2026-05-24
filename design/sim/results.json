@@ -1,0 +1,130 @@
+{
+  "field_winrate": {
+    "Random": 0.40437499999999993,
+    "HighCard": 0.584375,
+    "OneSuit": 0.26093750000000004,
+    "Counter": 0.5290625,
+    "MaxProb": 0.6053125,
+    "CounterPush": 0.5664583333333334,
+    "BluffPush": 0.5494791666666666
+  },
+  "win_matrix": {
+    "Random": {
+      "HighCard": 0.3325,
+      "OneSuit": 0.6625,
+      "Counter": 0.380625,
+      "MaxProb": 0.30125,
+      "CounterPush": 0.36,
+      "BluffPush": 0.389375
+    },
+    "HighCard": {
+      "Random": 0.6675,
+      "OneSuit": 0.811875,
+      "Counter": 0.545,
+      "MaxProb": 0.479375,
+      "CounterPush": 0.521875,
+      "BluffPush": 0.480625
+    },
+    "OneSuit": {
+      "Random": 0.3375,
+      "HighCard": 0.188125,
+      "Counter": 0.283125,
+      "MaxProb": 0.17875,
+      "CounterPush": 0.275,
+      "BluffPush": 0.303125
+    },
+    "Counter": {
+      "Random": 0.619375,
+      "HighCard": 0.455,
+      "OneSuit": 0.716875,
+      "MaxProb": 0.440625,
+      "CounterPush": 0.45125,
+      "BluffPush": 0.49125
+    },
+    "MaxProb": {
+      "Random": 0.69875,
+      "HighCard": 0.520625,
+      "OneSuit": 0.82125,
+      "Counter": 0.559375,
+      "CounterPush": 0.50375,
+      "BluffPush": 0.528125
+    },
+    "CounterPush": {
+      "Random": 0.64,
+      "HighCard": 0.478125,
+      "OneSuit": 0.725,
+      "Counter": 0.54875,
+      "MaxProb": 0.49625,
+      "BluffPush": 0.510625
+    },
+    "BluffPush": {
+      "Random": 0.610625,
+      "HighCard": 0.519375,
+      "OneSuit": 0.696875,
+      "Counter": 0.50875,
+      "MaxProb": 0.471875,
+      "CounterPush": 0.489375
+    }
+  },
+  "intransitive_cycles": [
+    [
+      "HighCard",
+      "CounterPush",
+      "BluffPush"
+    ]
+  ],
+  "round_texture": {
+    "avg_rounds": 10.70610119047619,
+    "avg_lead_changes": 0.8855059523809524,
+    "comeback_rate": 0.25473214285714285,
+    "ended_by_target": 1.0,
+    "ring_share": 0.5257625208454306,
+    "rank_share": 0.47423747915456943,
+    "tie_share": 0.022164153172562373
+  },
+  "seat0_winrate": {
+    "Random": 0.503125,
+    "HighCard": 0.520625,
+    "OneSuit": 0.485,
+    "Counter": 0.505,
+    "MaxProb": 0.5075,
+    "CounterPush": 0.51125,
+    "BluffPush": 0.489375
+  },
+  "skill_Counter_vs_Random": 0.624375,
+  "skill_Counter_vs_HighCard": 0.468125,
+  "push_counterpush_vs_counter": 0.5275,
+  "push_bluff_vs_honest": 0.511875,
+  "sweep_win_target": {
+    "5": {
+      "avg_rounds": 7.303214285714286,
+      "comeback_rate": 0.1744047619047619,
+      "ended_by_target": 1.0,
+      "avg_lead_changes": 0.6666071428571428
+    },
+    "7": {
+      "avg_rounds": 10.699821428571429,
+      "comeback_rate": 0.25845238095238093,
+      "ended_by_target": 1.0,
+      "avg_lead_changes": 0.8723809523809524
+    },
+    "9": {
+      "avg_rounds": 14.148214285714285,
+      "comeback_rate": 0.3131547619047619,
+      "ended_by_target": 1.0,
+      "avg_lead_changes": 1.0623809523809524
+    }
+  },
+  "sweep_neutral": {
+    "rank": {
+      "avg_rounds": 10.680059523809524,
+      "ring_share": 0.523163479277194,
+      "comeback_rate": 0.251547619047619
+    },
+    "replay": {
+      "avg_rounds": 14.197380952380952,
+      "ring_share": 0.6891041985381609,
+      "comeback_rate": 0.2679761904761905
+    }
+  }
+}
